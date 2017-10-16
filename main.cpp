@@ -1,6 +1,7 @@
 //Eisa Alkaabi
 //CSCI 111
 //p02-OldTimeyPhoto
+//Oct 15, 2017
 
 #include <vector>
 #include <iostream>
