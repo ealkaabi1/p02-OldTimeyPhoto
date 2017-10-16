@@ -38,7 +38,9 @@ int main()
   {
     for (int j = 0; j < bmp[i].size(); j++)
     {
-      // still need work this out
+      int rgbAvg = (bmp[i][j].red + bmp[i][j].green + bmp[i][j].blue) / 3;
+      Pixel rgb(rgbAvg, rgbAvg, rgbAvg);
+      bmp[i][j] = rgb;
     }
   }
 
